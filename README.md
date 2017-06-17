@@ -8,7 +8,7 @@ If a box has a solved value, than none of its peers can have the same value. Pee
 
 ## Strategy 2: Only Choice
 If there is only 1 box in a unit which would allow a certain value, than that box must be assined that digit. A unit is a boxes possible peers, ie boxes in same row, column, and 3x3 grid. Visually, this looks like:
- insert visual here
+![alt text](https://github.com/seb-patron/sudoku-ai/blob/master/onlychoiceexample.jpg "Only Choice example")
 
 In example above, the only box that has 1 as a possible solution is the top right box. only_choice() discovers that, and puts 1 in top right box
 
